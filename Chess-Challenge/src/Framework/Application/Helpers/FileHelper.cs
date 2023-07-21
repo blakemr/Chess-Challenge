@@ -12,8 +12,8 @@ namespace ChessChallenge.Application
         {
             get
             {
-                string dir = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-                return Path.Combine(dir, "ChessCodingChallenge");
+                string dir = "../..";
+                return dir;
             }
         }
 
